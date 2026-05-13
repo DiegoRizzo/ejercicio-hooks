@@ -48,12 +48,16 @@ function PomodoroN1() {
 
     return (
         <div>
-            <h2>Pomodoro Timer</h2>
+            <h1>Pomodoro Timer: Nivel 1</h1>
+            <h2>Timer</h2>
             <p>{formatTime(timeLeft)}</p>
             <button onClick={toggleTimer}>
-                {isRunning ? 'Pause' : 'Start'}
+                {isRunning ? 'Pausar' : 'Iniciar'}
             </button>
-            <button onClick={resetTimer}>Reset</button>
+            <button onClick={resetTimer}>Reiniciar</button>
+            <br></br>
+            <br></br>
+            <hr></hr>
         </div>
     );
 }

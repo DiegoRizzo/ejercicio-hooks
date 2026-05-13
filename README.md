@@ -1,16 +1,21 @@
-# React + Vite
+<h1 align="center">Ejercicio: Sistemas y Tecnologías Web</h1>
+<h2 align="center">React Hooks: useState y useEffect</h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3>Descripción General</h3>
+<p>
+    El objetivo de este ejercicio es hacer uso de React Hooks para desarrollar una página web que muestre temporizadores Pomodoro.
+    Para esto, se aplicará manejo de estado y efectos secundarios en React, principalmente <code>useState</code> y <code>useEffect</code>.
+</p>
 
-Currently, two official plugins are available:
+<h3>Instrucciones para correr el programa</h3>
+<p>Antes de poder correr el programa, es necesario instalar las dependencias. En la terminal, correr el siguiente comando:</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+~~~
+npm install express
+~~~
 
-## React Compiler
+<p>Ahora que ya están instaladas las dependencias, se utiliza el siguiente comando para correr el programa:</p>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+~~~
+npm run dev
+~~~
