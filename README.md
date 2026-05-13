@@ -19,3 +19,6 @@ npm install express
 ~~~
 npm run dev
 ~~~
+
+<h3>Screenshot del funcionamiento</h3>
+<img src="src/assets/funcionamiento.png" height="500px">

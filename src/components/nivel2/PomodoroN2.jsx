@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 
 // Definición de constantes fuera del componente para tiempos de trabajo y descanso
-const WORK_TIME = 10;
-const BREAK_TIME = 3;
+const WORK_TIME = 1500;
+const BREAK_TIME = 300;
 
 function PomodoroN2() {
 
